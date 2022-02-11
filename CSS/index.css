@@ -323,6 +323,7 @@ nav .default-logo-css img{
 .about-us .row{
     width: 60em;
     height: 100%;
+    text-align:left;
     /* border: 1px red solid; */
     /* background: #f4f4f4; */
 }
