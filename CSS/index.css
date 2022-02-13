@@ -218,7 +218,7 @@ section::after{
     display: inline-block;
     text-transform: uppercase;
     font-size: 3.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.2rem;
     border-bottom: 0.2rem solid red;
     padding-bottom: 0.1em;
    
@@ -527,7 +527,7 @@ nav .default-logo-css img{
 .events .per-event .event-intro{
     height: 15em;
     width: 100%;
-    padding: 0.4em 0.5em 0em 0.5em;
+    padding: 0.4em 1em;
     text-align: center;
 }
 
@@ -846,6 +846,13 @@ nav .default-logo-css img{
     /* display: block;
     color: #F4F4F4; */
     margin-bottom: 0.1em;
+}
+
+.achivements .content .para{
+    /* display: block;
+    color: #F4F4F4; */
+    text-align:center;
+/*     margin-bottom: 0.1em; */
 }
 
 
