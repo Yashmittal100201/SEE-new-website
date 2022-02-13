@@ -6,7 +6,7 @@
     scroll-behavior: smooth;
     font-family: 'Arimo';
     /* font-family: 'Montserrat', sans-serif; */
-    text-align:justify;
+    
 }
 
 .loading-area{
@@ -80,7 +80,6 @@
 
 html{
     font-size: 63.5%;
-    text-align: justify;
     
 }
 
@@ -89,7 +88,6 @@ html{
     overflow-y: scroll;
     scroll-behavior: smooth;
     background: linear-gradient(to bottom, #0e0d0d, #060608);
-    text-align: justify;
 }
 
 
@@ -160,6 +158,7 @@ html{
     flex-wrap:wrap;
     justify-content: space-evenly;
     align-content: center;
+    text-align:justify;
 }
 
 /* for Clubs */
@@ -173,6 +172,7 @@ html{
     flex-wrap:wrap;
     justify-content: space-evenly;
     align-content: center;
+    text-align:justify;
 }
 
 
@@ -194,6 +194,7 @@ html{
     flex-wrap:wrap;
     justify-content: left;
     align-content: center;
+    text-align:justify;
 }
 
 
@@ -234,6 +235,7 @@ section::after{
 
 .para{
     font-size: 1.8rem;
+    text-align:justify;
 }
 
 
