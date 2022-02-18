@@ -87,7 +87,7 @@ html{
     color: #ddd;
     overflow-y: scroll;
     scroll-behavior: smooth;
-    background: linear-gradient(to bottom, #0e0d0d, #060608);
+    background:rgb(1,0,0,0.8);
 }
 
 
@@ -331,7 +331,7 @@ header .header-text{
 .header .slider {
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(15, 15, 15, 0.493),rgba(8, 8, 8, 0.432)), url(../Image/image3.jpg);
+    background: url(../Image/image3.jpg);
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -342,14 +342,14 @@ header .header-text{
 
 @keyframes slider{
     0%{
-        background: linear-gradient(rgba(15, 15, 15, 0.493),rgba(8, 8, 8, 0.432)), url(../Image/image3.jpg);
+        background:  url(../Image/image3.jpg);
         object-fit: cover;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
     50%{
-        background: linear-gradient(rgba(15, 15, 15, 0.616),rgba(8, 8, 8, 0.568)), url(../Image/image2.jpg);
+        background:  url(../Image/image2.jpg);
         object-fit: cover;
         background-repeat: no-repeat;
         background-size: cover;
@@ -360,7 +360,7 @@ header .header-text{
 
     100%{
         
-        background: linear-gradient(rgba(15, 15, 15, 0.493),rgba(8, 8, 8, 0.432)), url(../Image/image4.jpg);
+        background:  url(../Image/image4.jpg);
         object-fit: cover;
         background-repeat: no-repeat;
         background-size: cover;
@@ -821,7 +821,7 @@ nav .default-logo-css img{
     /* border: 1px solid blue; */
     height: 40em;
     padding: 2em;
-    background: linear-gradient(rgba(15, 15, 15, 0.808),rgba(8, 8, 8, 0.733)),url(../Image/win-2.jpg);
+    background: url(../Image/win-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -866,7 +866,7 @@ nav .default-logo-css img{
     height: auto;
     padding: 2em;
     
-    background: linear-gradient(rgba(15, 15, 15, 0.808),rgba(8, 8, 8, 0.733)),url(../Image/contact-5.jpg);
+    background: url(../Image/contact-5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -942,7 +942,7 @@ nav .default-logo-css img{
 .contact-us .contact-form .btn{
     font-size: 2rem;
     font-weight: 580;
-    background: linear-gradient(50deg,  rgba(238, 235, 63, 0.808) 20%,rgba(253, 67, 67, 0.815) 80%);
+    background: black;
     color: rgb(252, 252, 252);
     box-shadow: 0.05em 0.05em 0.05em 0.05em skyblue;
     /* border: 1px solid  rgb(245, 247, 243); */
