@@ -134,7 +134,7 @@ html{
 .container{
     width: 100%;
     height: 100%;
-    /* border: 1px solid green; */
+    border: 1px solid green;
     padding: 1em;
 }
 
@@ -147,6 +147,8 @@ html{
     justify-content: space-evenly;
     align-content: center;
 }
+
+
 
 /* for Teams */
 .container-team-grid{
@@ -218,7 +220,7 @@ section::after{
     display: inline-block;
     text-transform: uppercase;
     font-size: 3.5rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.5rem;
     border-bottom: 0.2rem solid red;
     padding-bottom: 0.1em;
    
@@ -268,7 +270,7 @@ header .header-text{
 
 .header-text .heading-lg{
     letter-spacing: 0.05em;
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 .header-text .heading-lg span h1{
@@ -301,7 +303,7 @@ header .header-text{
 
 .header-text .para{
     letter-spacing: 0.05em;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .header-text .heading-lg,
@@ -384,7 +386,7 @@ header .header-text{
     /* height: 5.5vw; */
     /* text-transform: uppercase; */
     overflow: hidden; 
-    background-color: rgb(18, 195, 240);
+    /* background-color: rgb(18, 195, 240); */
     /* line-height: 5.4vw; */
 
 } 
@@ -417,7 +419,7 @@ nav .default-logo-css img{
 
 .about-us{
     position: relative;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     /* height: 75em; */
     width:100%;
     background-size: cover;
@@ -500,6 +502,51 @@ nav .default-logo-css img{
 }
 
 
+/* ############################      Achivements Styling    ############################### */
+
+.achivements{
+    position: relative;
+    /* border: 1px solid blue; */
+    height: 40em;
+    padding: 2em;
+    width: 100%;
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../Image/win-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+
+.achivements .content{
+    position: relative;
+    /* border: 1px solid blue; */
+    width: 25%;
+    padding: 2em;
+}
+
+.achivements .content .icon{
+    display: block;
+    color: #F4F4F4;
+    margin-bottom: 0.4em;
+}
+
+.achivements .content .heading-small{
+    /* display: block;
+    color: #F4F4F4; */
+    margin-bottom: 0.1em;
+}
+
+.achivements .content .para{
+    /* display: block;
+    color: #F4F4F4; */
+    text-align:center;
+/*     margin-bottom: 0.1em; */
+}
+
+
+
 /* ############################      Events Styling    ############################### */
 
 .events{
@@ -534,6 +581,7 @@ nav .default-logo-css img{
 }
 
 .events .per-event .event-intro{
+    
     height: 15em;
     width: 100%;
     padding: 0.4em 1em;
@@ -639,21 +687,14 @@ nav .default-logo-css img{
 
 .virtual-intro{
     position: relative;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     /* height: 75em; */
     width:100%;
-    /* background: linear-gradient(rgba(15, 15, 15, 0.808),rgba(8, 8, 8, 0.733)),url(../Image/win-2.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     object-fit: cover;
-
-    /* background: #f2f7fa9a;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed; */
     text-align: left;
 }
 
@@ -697,9 +738,6 @@ nav .default-logo-css img{
     justify-content: center;
     width: 50%;
     padding-left: 20em;
-    /* border: 1px solid red; */
-
-    /* text-align: left; */
 }
 
 .virtual-intro .right-intro .scroll-twitter {
@@ -709,10 +747,6 @@ nav .default-logo-css img{
     scrollbar-width: thin;
     padding: 0%;
     border-radius: 0.8em;
-    /* width */
-    /* height: auto; */
-    /* overflow: scroll; */
-    /* border: 1px solid red; */
 }
 .virtual-intro .right-intro .scroll-twitter::-webkit-scrollbar {
     width: 4px;
@@ -748,20 +782,20 @@ nav .default-logo-css img{
 
 .clubs{
     position: relative;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     padding: 2em;
 }
 
 .clubs .container{
     /* position: relative; */
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     height: auto;
     padding: 3em;
 }
 
 .clubs .club-box{
     height: 26em;
-    width: 60em;
+    width: 58em;
     border: 1px solid rgba(221, 221, 221, 0.075);
     box-shadow: 1px 1px 10px rgba(126, 122, 122, 0.411);
     /* border: 3px solid red; */
@@ -823,46 +857,11 @@ nav .default-logo-css img{
 }
 
 
-/* ############################      Achivements Styling    ############################### */
 
-.achivements{
-    position: relative;
-    /* border: 1px solid blue; */
-    height: 40em;
-    padding: 2em;
-    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../Image/win-2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    object-fit: cover;
-}
 
-.achivements .content{
-    position: relative;
-    /* border: 1px solid blue; */
-    width: 25%;
-    padding: 2em;
-}
 
-.achivements .content .icon{
-    display: block;
-    color: #F4F4F4;
-    margin-bottom: 0.4em;
-}
 
-.achivements .content .heading-small{
-    /* display: block;
-    color: #F4F4F4; */
-    margin-bottom: 0.1em;
-}
 
-.achivements .content .para{
-    /* display: block;
-    color: #F4F4F4; */
-    text-align:center;
-/*     margin-bottom: 0.1em; */
-}
 
 
 
@@ -875,7 +874,7 @@ nav .default-logo-css img{
     height: auto;
     padding: 2em;
     
-    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../Image/contact-5.png);
+    background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url(../Image/contact-5.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -961,7 +960,7 @@ nav .default-logo-css img{
 
 .contact-us .contact-form .submit-btn{
     /* display: block; */
-    text-align: right;
+    /* text-align: right; */
     width: 100%;
 }
 
@@ -980,54 +979,62 @@ nav .default-logo-css img{
     width: 65em;
     padding: 0em;
 }
-
-
-@media (max-width:1200px){
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1400px) {
     html{
-        font-size: 40%;
+        font-size: 55%;
     }
 }
 
-@media (max-width:1199px){
-    
-
-
-
-    .header .header-text .heading-lg{
-        font-size: 5rem;
-        /* text-transform: uppercase; */
-        /* display: inline-block; */
-        margin-bottom: 0.2rem;
-        /* border-bottom: 0.2rem solid red; */
-        padding-bottom: 0.1em;
-       
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    html{
+        font-size: 50%;
     }
 
-    .header-text .para{
-        letter-spacing: 0.02em;
-        font-size: 1.7rem;
-    }
-    
-    .heading-small{
-        display: inline-block;
-        text-transform: uppercase;
-        color: #fcf9f9;
-        font-size: 3rem;
-        margin-bottom: 1.8rem;
-        padding-bottom: 0.1em;
-    }
-
-    .about-us{
-        position: relative;
-        border: 1px solid blue;
+    .clubs .club-box{
         height: auto;
-        width:100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-    }  
+        width: 55em;
+        
+    }
 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1035px) {
+    html{
+        font-size: 45%;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    html{
+        /* font-size: 39%; */
+    }
+}
+@media only screen and (min-width: 826px)and (max-width: 992px) {
+    html{
+        font-size: 35%;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 400px) and (max-width: 826px) {
+    .about-us .container-flex .row{
+        margin-top: 2.5em;
+    }
+    .events .heading-lg{
+        margin-bottom: 1em;
+    }
+    
+    .events .events-btns{
+        margin-bottom: 3em;
+    }
+     
+    .events .per-event{
+        margin-bottom: 4em;
+    }
     .container-team-grid{
         display: grid;
         grid-template-columns: repeat(2, auto);
@@ -1038,85 +1045,211 @@ nav .default-logo-css img{
         justify-content: space-evenly;
         align-content: center;
     }
-
-
-    .virtual-intro .right-intro{
-        display: flex;
-        justify-content: center;
-        width: 50%;
-        padding-left: 2em;
+    .team .first-three{
+        margin-bottom: 4em;
     }
 
+    .virtual-intro .row{
+        margin-bottom: 4em;
+    }
 
-    /* for Clubs */
+    .virtual-intro .row .heading-lg{
+        font-size: 4rem;
+    }
+    
+
+    .virtual-intro .intro-portfolio{
+        height: 47em;
+        width: 75em;
+    }
+    
+    .virtual-intro .right-intro{
+        width: 75em;
+        padding-left: 17em;
+
+    }
+
+    
+.virtual-intro .right-intro .scroll-twitter {
+    width: 43em;
+    height: 55em !important;
+}
+
+/* for Clubs */
 .container-clubs-grid{
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(3,minmax(auto));
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(6,minmax(auto));
     width: 100%;
     height: 88%;
+    margin-top: 3.5em;
     flex-wrap:wrap;
     justify-content: space-evenly;
     align-content: center;
-}
-
-.clubs{
-    position: relative;
-    /* border: 1px solid blue; */
-    height: auto;
-    padding: 2em;
-}
-
-.clubs .container{
-    /* position: relative; */
-    /* border: 1px solid blue; */
-    height: auto;
-    padding: 3em;
+    text-align:justify;
 }
 
 .clubs .club-box{
     height: auto;
-    width: 30em;
-    border: 1px solid rgba(221, 221, 221, 0.075);
-    box-shadow: 1px 1px 10px rgba(126, 122, 122, 0.411);
-    padding: 2em;
-    text-align: center;
+    width: 65em;
     
 }
+    
 
-
-.clubs .club-box .club-member-img{
-    display: inline-block;
-    height: 12em;
-    width: 12em;
-    border-radius: 50%;
-    margin-bottom: 1.5em;
-}
-
- .clubs .club-box .club-intro{
-    display: inline-block;
-    text-align: left;
-    padding-left: 1em;
-    /* height: 100%; */
+/* for contact form */
+.contact-form-grid{
+    display: flex;
     width: 100%;
-    border-radius: 0px;
-    margin-bottom: 1em;
-} 
+    height: 100%;
+}
+.contact-us .contact-form{
+    /* text-align: left; */
+    /* border: 1px solid red; */
+}
 
-
-
+.contact-form table{
+    width: 100%;
+    border: 1px solid red;
+    text-align: center;   
+}
+.contact-us .contact-form .btn{
+    /* position: absolute; */
+    font-size: 2rem;
+    font-weight: 580;
+    background: black;
+    text-align: center;
+    color: rgb(252, 252, 252);
+    box-shadow: 0.05em 0.05em 0.05em 0.05em skyblue;
+    /* border: 1px solid  rgb(245, 247, 243); */
+    border-radius: 0.2em;
+    padding: 0.3em;
+}
 
 }
 
-@media (max-width:700px){
-    .about-us{
-        position: relative;
-        border: 1px solid blue;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 528px) and (max-width: 777px) {
+    html{
+        font-size: 35%;
+    }
+
+    .events .heading-lg{
+        margin-bottom: 1em;
+    }
+    
+    .events .events-btns{
+        margin-bottom: 3em;
+    }
+
+
+    .events .per-event{
+        width: 35rem;
+        margin-bottom: 4em;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (max-width: 608px) {
+    html{
+        font-size: 35%;
+    }
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 528px) {
+    html{
+        font-size: 32%;
+    }
+    
+    .events .per-event{
+        width: 42rem;
+        /* height: 50em; */
+        /* margin-bottom: 4em; */
+    }
+
+    .events .events-btns{
+        font-size: 2.5rem;
+
+        /* margin-bottom: 3em; */
+    }
+
+
+    .events .per-event .event-intro{
         height: auto;
-        width:100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-    }  
+        /* width: 100%; */
+        padding: 3em 1.8em;
+        /* text-align: center; */
+        /* font-size: 1rem; */
+    }
+    .events .per-event .event-intro .para{
+        /* display: block; */
+        font-size: 2.8rem;
+    }
+    .events .per-event .event-intro .event-btn a{
+        /* display: block; */
+        font-size: 2.5rem;
+    }
+
+    .container-team-grid{
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        grid-template-rows: repeat(6,minmax(auto));
+        width: 100%;
+        height: 88%;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+    .team .team-box{
+        height: auto;
+        width: 43em;
+        margin-bottom: 5em;
+        
+    }
+
+    
+    .team .member-intro .heading-small{
+        color: #fa2b47e5;
+        font-size: 3rem;
+    }
+    
+    .team .team-box .team-member-img{
+        height: 15em;
+        width: 15em;
+    }
+    
+    .team .team-box .para{
+        font-size: 2.8rem;
+        
+    }
+
+    
+    
+    .virtual-intro .right-intro{
+        width: 75em;
+        padding-left: 9em;
+
+    }
+
+
+    .container-clubs-grid{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(6,minmax(auto));
+        width: 100%;
+        height: 88%;
+        margin-top: 3.5em;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        align-content: center;
+        text-align:justify;
+    }
+    
+    .clubs .club-box{
+        height: auto;
+        /* width: 65em; */
+        
+    }
+
 }
+
