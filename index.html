@@ -130,7 +130,7 @@
 
 <!-- #############################      Achivements       ######################## -->
 
-    <!-- <section class="achivements" id="Achivements" data-aos="fade-up">
+    <section class="achivements" id="Achivements" data-aos="fade-up">
         <div class="container ">
             <h1 class="heading-lg">Achivements</h1>
             <div class="achivements-content container-flex">
@@ -165,7 +165,7 @@
             </div>
         </div>
     </section>
-     -->
+    
 
 
 <!-- ##############################    Events styling    ######################## -->
@@ -174,15 +174,15 @@
         <div class="container">
             <h1 class="heading-lg" data-aos="fade-up">All Our Events</h1>
             <div class="events-btns " data-aos="fade-up">
-                <div class="btn event-btn"><a href="#past-events">PAST</a></div>
-                <div class="btn event-btn"><a href="#upcoming-events">UPCOMING</a></div>
+                <div class="btn event-btn"><a href="#past-events" onclick="showPastEvent();">PAST</a></div>
+                <div class="btn event-btn"><a href="#upcoming-events" onclick="showUpcomingEvent();">UPCOMING</a></div>
             </div>
 
             <!-- ###########     Past   Events     #################### -->
             
             
             <div class="events-gallery">
-                <div class="upcoming-events container-flex">
+                <div class="past-events container-flex">
                     <div class="per-event event-1" data-aos="fade-up">
                         <div class="event-img">
                             <img src="./Image/intro2.png" alt="Event not found" srcset="">
@@ -221,23 +221,26 @@
                     </div>
                 </div>
                 
-                <!-- ###########     Past   Events     #################### -->
+                <!-- ###########     Upcoming   Events     #################### -->
 
-                <div class="past-events container-flex" style="display:none;">
+                <div class="upcoming-events container-flex" >
                     <div class="per-event event-1" data-aos="fade-up">
                         <div class="event-img">
                             <img src="./Image/intro2.png" alt="Event not found" srcset="">
                         </div>
                         <div class="event-intro">
-                            Event Intro
+                            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi totam laborum sint.</p>
+                            <div class="btn event-btn"><a href="#past-events">More</a></div>
                         </div>
+                        
                     </div>
                     <div class="per-event event-2" data-aos="fade-up">
                         <div class="event-img">
                             <img src="./Image/intro3.png" alt="Event not found" srcset="">
                         </div>
                         <div class="event-intro">
-                            Event Intro
+                            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi totam laborum sint.</p>
+                            <div class="btn event-btn"><a href="#past-events">More</a></div>
                         </div>
                     </div>
                     <div class="per-event event-3" data-aos="fade-up">
@@ -245,7 +248,8 @@
                             <img src="./Image/intro4.png" alt="Event not found" srcset="">
                         </div>
                         <div class="event-intro">
-                            Event Intro
+                            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi totam laborum sint.</p>
+                            <div class="btn event-btn"><a href="#past-events">More</a></div>
                         </div>
                     </div>
                     <div class="per-event event-4" data-aos="fade-up">
@@ -253,7 +257,8 @@
                             <img src="./Image/intro5.png" alt="Event not found" srcset="">
                         </div>
                         <div class="event-intro">
-                            Event Intro
+                            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi totam laborum sint.</p>
+                            <div class="btn event-btn"><a href="#past-events">More</a></div>
                         </div>
                     </div>
                 </div>
@@ -567,6 +572,24 @@
         preloader1.style.display = 'none';
     }
 </script>  
+
+<script>
+    const pastEvent = document.getElementsByClassName('past-events');
+    const pastEvent = document.getElementsByClassName('upcoming-events');
+    function showPastEvent(){
+        pastEvent.style.visibility = 'flex';
+        upcomingEvent.style.visibility = 'hidden';
+
+    }
+    function showPastEvent(){
+        upcomingEvent.style.visibility = 'flex';
+        pastEvent.style.visibility = 'hidden';
+
+    }
+
+</script>  
+
+
 
 </body>
 </html>
