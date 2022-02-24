@@ -342,7 +342,7 @@ header .header-text{
     animation: slider 30s infinite linear;
 
 }
-
+/*
 @keyframes slider{
     0%{
         background:  linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../Image/image3.png);
@@ -373,7 +373,7 @@ header .header-text{
     
 } 
 
-
+*/
 
 /* ##########################      Navbar Stylling   ############################## */
 
@@ -387,7 +387,7 @@ header .header-text{
     overflow: hidden; 
     /* background-color: rgb(18, 195, 240); */
     /* line-height: 5.4vw; */
-
+    z-index:99;
 } 
 
 nav .default-logo-css img{
