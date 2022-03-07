@@ -194,7 +194,7 @@ than Founder section
             <!-- ###########     Past   Events     #################### -->
             
             
-            <div class="events-gallery">
+            <div class="events-gallery" id="Past-Events">
                 <div class="past-events container-flex">
                     <div class="per-event event-1" data-aos="fade-up">
                         <div class="event-img">
@@ -236,7 +236,7 @@ than Founder section
                 
                 <!-- ###########     Upcoming   Events     #################### -->
 
-                <div class="upcoming-events container-flex" >
+                <div class="upcoming-events container-flex" id="Upcoming-Events">
                     <div class="per-event event-1" data-aos="fade-up">
                         <div class="event-img">
                             <img src="./Image/event5.png" alt="Event not found" srcset="">
@@ -621,17 +621,48 @@ than Founder section
 </script>  
 
 <script>
-    const pastEvent = document.getElementsByClassName('past-events');
-    const pastEvent = document.getElementsByClassName('upcoming-events');
+//     const pastEvent = document.getElementsById('Past-Events');
+//     const pastEvent = document.getElementsById('Upcoming-Events');
     function showPastEvent(){
-        pastEvent.style.visibility = 'flex';
-        upcomingEvent.style.visibility = 'hidden';
+        var x = document.getElementById('Past-Events');
+        var y = document.getElementsById('Upcoming-Events');
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            y.style.display = "none";
+        }
+         else {
+             x.style.display = "none";
+             y.style.display = "block";
+        }
+        
+//         pastEvent.style.visibility = 'flex';
+//         upcomingEvent.style.visibility = 'hidden';
 
     }
-    function showPastEvent(){
-        upcomingEvent.style.visibility = 'flex';
-        pastEvent.style.visibility = 'hidden';
+    function showUpcomingEvent(){
+        var x = document.getElementById('Past-Events');
+        var y = document.getElementsById('Upcoming-Events');
+        if (x.style.display === "none") {
+            x.style.display = "none";
+            y.style.display = "block";
+        }
+         else {
+             x.style.display = "block";
+             y.style.display = "none";
+        }
+//         upcomingEvent.style.visibility = 'flex';
+//         pastEvent.style.visibility = 'hidden';
 
+    }
+    
+    function showStuff() {
+        var x = document.getElementById('about-more');
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        }
+         else {
+            x.style.display = "none";
+        }
     }
     
  
