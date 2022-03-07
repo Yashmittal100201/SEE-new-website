@@ -94,12 +94,12 @@ html{
 
 /* ##########################      Team Memebers Image in background   ################## */
     
-    .bg1 {background: url(../Image/team-member-img-1.png);}
-    .bg2 {background: url(../Image/team-member-img-1.png);}
-    .bg3 {background: url(../Image/team-member-img-1.png);}
-    .bg4 {background: url(../Image/team-member-img-1.png);}
-    .bg5 {background: url(../Image/team-member-img-1.png);}
-    .bg6 {background: url(../Image/team-member-img-1.png);}
+    .bg1 {background: url(../Image/team-member-mem1.png);}
+    .bg2 {background: url(../Image/team-member-mem2.png);}
+    .bg3 {background: url(../Image/team-member-mem3.png);}
+    .bg4 {background: url(../Image/team-member-mem4.png);}
+    .bg5 {background: url(../Image/team-member-mem5.png);}
+    .bg6 {background: url(../Image/team-member-mem6.png);}
     
     .team-box  .bg{
         background-size: cover;
