@@ -474,11 +474,11 @@ nav .default-logo-css img{
     color:blue;
 } */
 
-.about-more1 .a{
+.about-us .a{
     font-size:1.8rem;
     cursor:pointer;
     color:blue;
-    }    
+}    
 
 .about-more1{
     display:none;
