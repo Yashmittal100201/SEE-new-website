@@ -469,6 +469,12 @@ nav .default-logo-css img{
 }
 
 .about-more{
+/*     display:none; */
+    cursor:pointer;
+    color:blue;
+}
+
+.about-more{
     display:none;
 }
 
