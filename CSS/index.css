@@ -393,7 +393,7 @@ header .header-text{
 
 nav .default-logo-css img{
     margin-left: 7em;
-    width: 7rem;
+    width: 5rem;
 }
 
 .navbar .navbar-nav{
@@ -579,6 +579,11 @@ nav .default-logo-css img{
     border: 1px solid rgba(221, 221, 221, 0.253);
     box-shadow: 1px 1px 10px rgba(126, 122, 122, 0.411);
     width: 26rem;
+    text-align: center;
+}
+
+.events .per-event .event-img img{
+    height: 195px;
     text-align: center;
 }
 
