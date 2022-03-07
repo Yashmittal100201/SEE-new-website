@@ -274,10 +274,10 @@ header .header-text{
 }
 
 .header-text .heading-lg span h1{
-    background: red;
-    border-bottom-left-radius: 5em;
-    border-bottom-right-radius: 5em;
-    letter-spacing: 0.05em;
+/*     background: red; */
+/*     border-bottom-left-radius: 5em; */
+/*     border-bottom-right-radius: 5em; */
+/*     letter-spacing: 0.05em; */
     /* font-size: 6rem; */
 }
 
