@@ -386,10 +386,21 @@ header .header-text{
     /* height: 5.5vw; */
     /* text-transform: uppercase; */
     overflow: hidden; 
-    /* background-color: rgb(18, 195, 240); */
+/*     background-color: rgb(18, 195, 240); */
     /* line-height: 5.4vw; */
     z-index:99;
 } 
+
+nav{
+    
+    background-color: white;
+    color: #000;
+}
+nav #navbarNavAltMarkup .navbar-nav  a{
+    color: #000;
+}
+
+
 
 nav .default-logo-css img{
     margin-left: 7em;
