@@ -468,13 +468,18 @@ nav .default-logo-css img{
     padding-top: 2em;
 }
 
-.about-more{
+/* .about-more{ */
 /*     display:none; */
-    cursor:pointer;
+/*     cursor:pointer;
     color:blue;
-}
+} */
 
-.about-more{
+.about-more1 a{
+    font-size: 1.8rem;
+    
+}    
+
+.about-more1{
     display:none;
 }
 
