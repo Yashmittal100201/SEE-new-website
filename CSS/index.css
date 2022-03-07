@@ -468,6 +468,10 @@ nav .default-logo-css img{
     padding-top: 2em;
 }
 
+.about-more{
+    display:none;
+}
+
 .about-us #intro-main{
     box-shadow: rgb(126 122 122 / 41%) 8px 7px 4px;
     border: 1px solid white;
