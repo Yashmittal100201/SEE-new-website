@@ -288,15 +288,15 @@ header .header-text{
 }
 
 .header-text .heading-lg span h1::before{
-    content: "*";
-    display: block;
-    position: absolute;
-    top: 0.5em;
-    right: 2.8em;
-    /* left:0.8em; */
-    line-height: 2px;
-    font-size: 2.2rem;
-    text-shadow: -4px -1px 1px #F4F4F4 ;
+/*     content: "*"; */
+/*     display: block; */
+/*     position: absolute; */
+/*     top: 0.5em; */
+/*     right: 2.8em; */
+/*     left:0.8em; */
+/*     line-height: 2px; */
+/*     font-size: 2.2rem; */
+/*     text-shadow: -4px -1px 1px #F4F4F4 ; */
     
     
 }
