@@ -343,38 +343,7 @@ header .header-text{
     animation: slider 30s infinite linear;
 
 }
-/*
-@keyframes slider{
-    0%{
-        background:  linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../Image/image3.png);
-        object-fit: cover;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-    50%{
-        background:  linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.6)),url(../Image/image2.png);
-        object-fit: cover;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        
-        
-    }
 
-    100%{
-        
-        background:  linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../Image/image4.png);
-        object-fit: cover;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        
-    }
-    
-} 
-
-*/
 
 /* ##########################      Navbar Stylling   ############################## */
 
@@ -421,11 +390,7 @@ nav .default-logo-css img{
     color: black;
     
 }
-/* .navbar .default-nav-link-css a{
-    margin-right: 1em;
-    color: black;
 
-} */
 .navbar .default-nav-link-css a:active{
     margin-right: 1em;
     color: #000;
@@ -468,11 +433,6 @@ nav .default-logo-css img{
     padding-top: 2em;
 }
 
-/* .about-more{ */
-/*     display:none; */
-/*     cursor:pointer;
-    color:blue;
-} */
 
 .about-us .a{
     font-size:1.8rem;
@@ -572,8 +532,7 @@ nav .default-logo-css img{
 }
 
 .achivements .content .para{
-    /* display: block;
-    color: #F4F4F4; */
+    
     text-align:center;
 /*     margin-bottom: 0.1em; */
 }
@@ -630,6 +589,59 @@ nav .default-logo-css img{
 .upcoming-events{
     display: none;
 }
+
+
+/* ############################      Branch Cordinator and Director sir intro    ############################### */
+
+/* #############      Branch Cordinator sir intro    ################ */
+.faculty-intro{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.faculty-intro .container{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid green; */
+}
+
+.faculty-intro .fac-intro-cont{
+    margin-top: 2em;
+}
+
+.faculty-intro .fac-intro{
+    padding: 0.3em;
+    border: 1px solid rgba(221, 221, 221, 0.253);
+    box-shadow: 1px 1px 10px rgba(126, 122, 122, 0.411);
+    width: 25%;
+    /* height: 30em; */
+    /* border: 1px solid red; */
+}
+.fac-intro img{
+    /* position: absolute; */
+    width: 100%;
+    height: 80%;
+}
+
+.fac-name p{
+    text-align: center;
+    /* width: 70%; */
+    /* height: auto; */
+}
+.faculty-intro .intro{
+    width: 70%;
+    height: auto;
+    padding-top: 2em;
+}
+.faculty-intro .intro .heading{
+    text-align: left;
+    font-size: 2.5rem;
+}
+
+
+                   /* #############      Director sir intro    ################ */
+
 
 
 /* ############################      Team Styling    ############################### */
@@ -1023,6 +1035,29 @@ nav .default-logo-css img{
     min-width: 50em;
     padding: 0em;
 }
+
+/* ##################       Footer Styling       ####################### */
+
+/* .mb-4 .btn-primary{
+    border-color: none;
+    background-color: black;
+    border-color: #000;
+    border: none;
+} */
+.mb-4 .fa-instagram{
+    margin-left: 0px;
+    margin-top: 0px;
+    /* border-radius: 50%; */
+}
+.fa-linkedin-in{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+footer section{
+    padding: 0px;
+}
+
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1400px) {
     html{
